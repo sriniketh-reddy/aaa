@@ -9,7 +9,7 @@ const BackSide = (props) => {
     useEffect(()=>{
         setTranslatedFatherName(translate(fatherName));
         setTranslatedAddress(translate(address));
-    },[]);
+    },[address,fatherName]);
 
     async function translate(x) {
         const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=${encodeURIComponent(x)}`;
