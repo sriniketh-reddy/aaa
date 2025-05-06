@@ -1,0 +1,13 @@
+.AdhaarCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 0.5rem;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}

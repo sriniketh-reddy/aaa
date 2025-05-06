@@ -1,0 +1,94 @@
+*{
+font-family: Arial, sans-serif;
+}
+.aadhaar-card {
+width: 500px;
+height: 330px;
+display: flex;
+flex-direction: column;
+background-color: #fff;
+border: 1px solid #000;
+border-radius: 10px;
+padding: 15px;
+box-sizing: border-box;
+margin: auto;
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 40px;
+}
+.gov-logo {
+margin-left: 10px;
+width: 40px;
+}
+.gov-title {
+text-align: center;
+flex-grow: 1;
+font-weight: bold;
+}
+.gov-title span {
+display: block;
+}
+.gov-title .hindi {
+color: orange;
+}
+.gov-title .english {
+color: green;
+}
+.profile-section {
+display: flex;
+margin-top: 10px;
+flex-grow: 1;
+}
+.profile-photo {
+width: 100px;
+height: 120px;
+border: 1px solid #ccc;
+margin-right: 20px;
+}
+.info {
+flex-grow: 1;
+}
+.info h2 {
+margin: 0;
+}
+.qr {
+width: 100px;
+}
+.details {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.aadhaar-number {
+font-size: 22px;
+font-weight: bold;
+margin: 10px 0;
+text-align: center;
+}
+.footer {
+border-top: 2px solid rgb(255, 80, 16);
+padding-top: 5px;
+font-size: 20px;
+text-align: center;
+}
+.gov-logo-1{
+    flex-grow: 1;
+}
+.main-logo{
+    width: 100%;
+}
+.bold{
+    font-weight: bold;  
+}
+.qr-code{
+    align-self: center;
+    width: 110px;
+    height: 110px;
+}
+.name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
