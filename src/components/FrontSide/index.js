@@ -7,7 +7,7 @@ const FrontSide = (props) => {
 
     useEffect(()=>{
         setTranslatedName(translate(fullName));
-    },[]);
+    },[fullName]);
 
     async function translate(x) {
         const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=hi&dt=t&q=${encodeURIComponent(x)}`;
